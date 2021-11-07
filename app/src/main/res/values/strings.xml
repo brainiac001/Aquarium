@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Aquarium</string>
+    <string name="help_text">Move the fish using the arrow keys/buttons, eat as many worms as possible before you run out of time. Always avoid the crabs to prevent the fish from getting injured. Collect as many stars as possible to defend yourself from the crab. But be careful the crabs multiplies and moves faster as you progress from one level to another.</string>
+    <string name="credits">Developed by Idootech\nBuilt using Scratch 3.0, Android Studio and HTMLifier (sheeptester.github.io)\n for more credits info visit www.idootech.com.ng/aquariumcredits\nFor more info call or whatsapp: +2349073734298\nOr mail: idootechnology@gmail.com\nOr visit our website @ www.idootech.com.ng</string>
+</resources>

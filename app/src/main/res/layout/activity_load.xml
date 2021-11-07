@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/load_layout"
+    android:layout_height="match_parent"
+    tools:context=".LoadActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:src="@drawable/backgroundimage">
+
+    </ImageView>
+
+    <LinearLayout
+        android:id="@+id/fish_crab"
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/fish_load"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fishload">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/crab_load"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            app:layout_constraintTop_toTopOf="@id/fish_load"
+
+            android:src="@drawable/crabload">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <ProgressBar
+
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:id="@+id/progressBar"
+        android:layout_margin="@dimen/_5sdp"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/light_blue"
+        android:indeterminateTintMode="src_in"
+
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ProgressBar>
+</androidx.constraintlayout.widget.ConstraintLayout>
