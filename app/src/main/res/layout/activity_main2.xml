@@ -150,7 +150,7 @@
                 android:adjustViewBounds="true"
                 android:scaleType="centerCrop"
                 android:src="@drawable/octopus"
-                android:visibility="invisible">
+                android:visibility="visible">
 
             </ImageView>
 
