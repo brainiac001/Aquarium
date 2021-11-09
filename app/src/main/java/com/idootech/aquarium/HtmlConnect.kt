@@ -64,7 +64,7 @@ class HtmlConnect : AppCompatActivity() {
         var adRequest = AdRequest.Builder().build()
         InterstitialAd.load(
             this,
-            "ca-app-pub-6887344842994800/8697117280",
+            "ca-app-pub-3940256099942544/1033173712",
             adRequest,
             object : InterstitialAdLoadCallback() {
                 override fun onAdFailedToLoad(adError: LoadAdError) {
@@ -371,7 +371,7 @@ class HtmlConnect : AppCompatActivity() {
             var adRequest = AdRequest.Builder().build()
             InterstitialAd.load(
                 this,
-                "ca-app-pub-6887344842994800/8697117280",
+            "ca-app-pub-3940256099942544/1033173712",
                 adRequest,
                 object : InterstitialAdLoadCallback() {
                     override fun onAdFailedToLoad(adError: LoadAdError) {
