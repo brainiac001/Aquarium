@@ -1,7 +1,7 @@
 # aquarium
-Developed by OLUWADAMILARE IDOWU JOSHUA Built using Scratch Program (Version 3), Android Studio and HTMLifier (sheeptester.github.io).
-Go to idootech.com.ng/aquarium for more details about this project.
-For more credits info go to idootech.com.ng/aquarium/credits.html
+Developed by OLUWADAMILARE IDOWU JOSHUA Built using Scratch Program (Version 3), Android Studio and HTMLifier (https://sheeptester.github.io).
+Go to http://idootech.com.ng/aquarium for more details about this project.
+For more credits info go to http://idootech.com.ng/aquarium/credits.html
 Aquarium is a game designed using Scratch 3. It was then Converted to an HTML Document using HTLMLIfier.
 The HTML Version of Aquarium is then sent to android studio assets folder. 
 With the use of Android studio webview, the Html file is able to run on android devices.
